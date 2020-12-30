@@ -1,0 +1,18 @@
+.container1{
+	width: 50%;
+    height: 550px;  
+    margin:20px, auto;	
+    background-color: rgb(133, 223, 43);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 800px; 
+    }
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
